@@ -1,0 +1,80 @@
+/* Obecné nastavení aplikace */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Arial";
+}
+
+/* Styl tlačítek */
+.button {
+    -fx-background-color: #EE66EE;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 15 5 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #FF11FF;
+}
+
+/* Styl mřížky */
+.grid-pane {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    -fx-hgap: 1;
+    -fx-vgap: 1;
+}
+
+/* Okraje políček */
+.top-border {
+    -fx-border-top-color: black;
+    -fx-border-top-width: 1px;
+}
+
+.left-border {
+    -fx-border-left-color: black;
+    -fx-border-left-width: 1px;
+}
+
+.bottom-border {
+    -fx-border-bottom-color: black;
+    -fx-border-bottom-width: 1px;
+}
+
+.right-border {
+    -fx-border-right-color: black;
+    -fx-border-right-width: 1px;
+}
+
+/* Silnější okraje pro bloky 3x3 */
+.thick-top-border {
+    -fx-border-top-color: black;
+    -fx-border-top-width: 2px;
+}
+
+.thick-left-border {
+    -fx-border-left-color: black;
+    -fx-border-left-width: 2px;
+}
+
+/* Styl pro tmavší políčka */
+.cell-dark {
+    -fx-background-color: #ffddff; /* Světle ruzova */
+    -fx-font-size: 18px;
+}
+
+/* Styl pro světlejší políčka */
+.cell-light {
+    -fx-background-color: #ffffff; /* Bílá */
+    -fx-font-size: 18px;
+}
+
+/* Styl pro políčko při aktivaci */
+.cell-light:focused, .cell-dark:focused {
+    -fx-border-color: #FF00FF; /* Růžová */
+    -fx-border-width: 3;
+}
